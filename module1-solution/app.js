@@ -37,7 +37,7 @@ function LunchCheckController($scope) {
 }
 
 function countTextWithoutComma(s) {
-  var n = s.match(/[^,\s]+/g);
+  var n = s.match(/[^,\s][^,]*/g);
   if (n) {
     return n.length;
   }
