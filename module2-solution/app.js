@@ -74,6 +74,7 @@ angular
     };
 
     list.removeItem = function (itemIndex) {
+      console.log(list);
       var item = shoppingList[itemIndex];
       list.shoppingList.splice(itemIndex, 1);
       return item;
