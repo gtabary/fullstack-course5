@@ -18,3 +18,11 @@
 .ui-view-placeholder {
     margin-top: 60px;
 }
+
+input {
+  color: black;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
